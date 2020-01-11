@@ -1,0 +1,19 @@
+
+
+--------------------------------------------------------------------------------------------------
+
+Some faced challenges in this App : 
+
+1- A lot of search to draw and move all of items in suitable positions...
+   such as suitable shape for snake (head , body and tail) move in center of boxes "our unit".
+
+2- Each time we set new values for food object we must apply on it a set of operations firstly... 
+   such as new food not take the same coordinates of blocks or body of snake.
+
+3- blocks and food are set randomly.
+
+4- Handling different collision types for different cases "levels".
+
+5- Searching how add and play audio files with some events in JS.
+
+--------------------------------------------------------------------------------------------------

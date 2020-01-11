@@ -1,0 +1,13 @@
+
+-------------------------------------------------------------------------
+
+Snake Game
+
+Consists of 3 levels
+
+Easy level   : Increaing Size , Increasing Speed , No Border , No Blocks
+Medium level : Increaing Size , Increasing Speed , No Border , Blocks
+Hard level   : Increaing Size , Increasing Speed , Border    , Blocks 
+
+
+-------------------------------------------------------------------------

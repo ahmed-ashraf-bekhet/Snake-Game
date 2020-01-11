@@ -1,0 +1,79 @@
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            canvas{
+                display: block;
+                margin: 0 auto;
+                display: none;
+                overflow: hidden;
+            }
+            #level{
+                margin: 40px auto;
+                border: 8px solid orange;
+                width: 70%;
+                border-radius: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+            #level>p{
+                padding: 20px;
+                font-size: 50px;
+                font-family: fantasy;
+            }
+            #level>button{
+                outline: none;
+                margin: 10px;
+                width: 30%;
+                height: 8%;
+                background-color: blue;
+                color: white;
+                font-size: 35px;
+                font-family: fantasy;
+                border-radius: 10px;
+                cursor: pointer;
+                box-shadow: 10px 10px 10px rgb(112, 112, 216);
+            }
+            #level>button:hover{
+                animation: myAni;
+                animation-duration: .6s;
+            }
+            @keyframes myAni {
+                from{
+
+                }
+                to{
+                    transform: scale(1.1)
+                }
+            }
+            #replayContainer{
+                display: none;
+                margin: 40px auto;
+                border: 8px solid orange;
+                width: 70%;
+                border-radius: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+            #replayContainer>p{
+                padding: 20px;
+                font-size: 200px;
+                font-family: fantasy;
+                color: mediumvioletred;
+                text-shadow: 10px 10px 10px grey;
+            }
+            #snakeGame{
+                margin: 40px auto;
+                border: 8px solid orange;
+                width: 70%;
+                border-radius: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+            #snakeGame>p{
+                padding: 20px;
+                font-size: 200px;
+                font-family: fantasy;
+                color: mediumvioletred;
+                text-shadow: 10px 10px 10px grey;
+            }
